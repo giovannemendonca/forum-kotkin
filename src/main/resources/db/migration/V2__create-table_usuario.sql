@@ -4,4 +4,6 @@ CREATE TABLE USUARIO(
     EMAIL VARCHAR(50) NOT NULL,
 
     PRIMARY KEY (ID)
-)
+);
+
+INSERT INTO USUARIO ( ID,NOME, EMAIL) VALUES (1, 'Giovanne', 'giovanne@dev.com')
