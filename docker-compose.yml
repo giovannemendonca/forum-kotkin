@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  forum_kotlin:
+    image: postgres:latest
+    container_name: forum_db
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: forum
+      POSTGRES_PASSWORD: forum
+      POSTGRES_DB: forum_db
